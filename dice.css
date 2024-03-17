@@ -1,13 +1,13 @@
 body{
     display: flex;
     justify-content: center;
-    margin-top: 150px;
+    margin-top: 65px;
     background-color:black;
 }
 
 .body{
     width: 1000px;
-    height: 480px;
+    height: 620px;
     background-color: rgb(110, 52, 255);
 } 
 
@@ -57,4 +57,10 @@ button:hover{
     /* border: 2px solid turquoise;
     background-color: transparent; */
     cursor: pointer;
+}
+
+#scores{
+    color: turquoise;
+    font-size: 20px;
+    font-weight: bold;
 }
