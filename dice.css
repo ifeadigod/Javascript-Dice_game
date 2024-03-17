@@ -1,0 +1,60 @@
+body{
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+    background-color:black;
+}
+
+.body{
+    width: 1000px;
+    height: 480px;
+    background-color: rgb(110, 52, 255);
+} 
+
+.heading{
+    margin: 20;
+    text-align: center;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: turquoise;
+    font-size: 30px;
+}
+
+.head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+}
+
+.players{
+    text-align: center;
+    align-items: center;
+}
+h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: turquoise;
+}
+
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 30px;
+}
+
+button{
+    border-radius: 10px;
+    border: none;
+    color: red;
+    background-color: turquoise;
+    font-size: 18px;
+    width: 120px;
+    padding: 10px;
+    font-weight: bold;
+}
+
+button:hover{
+    /* border: 2px solid turquoise;
+    background-color: transparent; */
+    cursor: pointer;
+}
